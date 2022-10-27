@@ -9,7 +9,7 @@ class App extends Component {
       shows: [],
       seasons: [],
       episodes: [],
-      selectedSeason: 1,
+      selectedSeason: 0,
     }
     this.SeasonsComponent = this.SeasonsComponent.bind(this);
     this.EpisodesComponent = this.EpisodesComponent.bind(this);
